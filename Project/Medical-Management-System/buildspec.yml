@@ -3,6 +3,7 @@ version: 0.2
 phases:
   pre_build:
     commands:
+      - cd Project/Medical-Management-System/
       - echo Logging in to Amazon ECR...
       - aws --version
       - REPOSITORY_URI=719004225945.dkr.ecr.us-west-2.amazonaws.com/medical-management-system

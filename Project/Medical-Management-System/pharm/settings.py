@@ -31,7 +31,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'Testingpharmacy-env.eba-bjf5t9in.us-west-2.elasticbeanstalk.com'
+    'Testingpharmacy-env.eba-bjf5t9in.us-west-2.elasticbeanstalk.com',
+    'getmeds-212423025.us-west-2.elb.amazonaws.com'
 ]
 
 # Application definition

@@ -26,5 +26,8 @@ phases:
       - docker push $REPOSITORY_URI:$IMAGE_TAG
       - echo Writing image definitions file
       - printf '[{"name":"medical-management-system","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
+      - pwd
 artifacts:
     files: imagedefinitions.json
+    base-directory: 'Project/Medical-Management-System*'
+    discard-paths: yes

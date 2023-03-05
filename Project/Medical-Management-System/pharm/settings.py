@@ -29,10 +29,8 @@ DEBUG = True
 
 # ALLOWED_HOSTS = ['pharmacymanage.herokuapp.com']
 ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    'pharmacy-loadbalancer-1074285435.us-east-1.elb.amazonaws.com',
-    'awseb-awseb-njzvxevmvlju-1620672583.us-east-1.elb.amazonaws.com'
+    'pharmacy-management-system2.herokuapp.com',
+    '127.0.0.1'
 ]
 
 # Application definition

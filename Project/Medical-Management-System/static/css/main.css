@@ -125,7 +125,7 @@ border-radius: 25px;
 }
 
 .main-sidebar {
-    background-color: #121642 !important;
+    background-color: #27989c !important;
     color: white !important;
 }
 
@@ -1177,6 +1177,11 @@ swal2-icon.swal2-success {
     background: linear-gradient(to right, rgb(45, 172, 52), rgb(83, 185, 36)) !important;
     border-radius: 5px;
     color: white;
+}
+.mojahinew {
+    background: linear-gradient(to right, rgb(41, 189, 189), rgb(156, 241, 241)) !important;
+    border-radius: 5px;
+    color: black;
 }
 
 .dash-icon .col-md-3 {

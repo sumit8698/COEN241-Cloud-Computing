@@ -92,7 +92,7 @@ WSGI_APPLICATION = 'pharm.wsgi.application'
 DATABASES = {
   'default': {
     'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    'NAME': 'getmeds',
+    'NAME': 'postgres',
     'USER': 'getmedsDB',
     'PASSWORD': 'groupproject241',
     'HOST': 'getmeds.cnbtewuf24zj.us-west-2.rds.amazonaws.com',

@@ -21,10 +21,10 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker images...
-      - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 719004225945.dkr.ecr.us-east-1.amazonaws.com  
+      - aws ecr get-login-password --region us-west-2 | docker login --username AWS --password-stdin 719004225945.dkr.ecr.us-west-2.amazonaws.com  
       - docker push $REPOSITORY_URI:latest
       - docker push $REPOSITORY_URI:$IMAGE_TAG
-      - echo Writing image definitions file...
+      - echo Writing image definitions file
       - printf '[{"name":"medical-management-system","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
 artifacts:
     files: imagedefinitions.json

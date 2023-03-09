@@ -96,11 +96,21 @@ DATABASES = {
   'default': {
     'ENGINE': 'django.db.backends.postgresql_psycopg2',
     'NAME': 'postgres',
-    'USER': 'getmedsDB',
-    'PASSWORD': 'groupproject241',
-    'HOST': 'getmeds.cnbtewuf24zj.us-west-2.rds.amazonaws.com',
+    'USER': 'postgres',
+    'PASSWORD': 'postgres',
+    'HOST': 'ec2-34-208-28-49.us-west-2.compute.amazonaws.com',
     'PORT': '5432',
   }
+    
+    
+#   'default': {
+#     'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#     'NAME': 'postgres',
+#     'USER': 'getmedsDB',
+#     'PASSWORD': 'groupproject241',
+#     'HOST': 'getmeds.cnbtewuf24zj.us-west-2.rds.amazonaws.com',
+#     'PORT': '5432',
+#   }
 }
 
 
